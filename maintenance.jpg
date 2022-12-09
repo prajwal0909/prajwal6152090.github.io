@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maintenance</title>
+    <style>
+      body { 
+        background-color: #E84C3D; 
+        text-align: center; 
+        padding: fit; }
+      h1 { 
+        font-size: 120px;
+        font-weight: 1000; }
+      h2 { 
+        font-size: 25px;
+        font-weight: 100; }
+      h3 { 
+         color: transparent;
+         font-size: 90px;
+         font-weight: 1000; }
+      body { 
+         font: 20px Helvetica, sans-serif; color: #fff; 
+      }
+     .button{
+         background-color: #E84C3D; 
+         text-align: center; 
+         padding: fit; }
+
+       .img360 {
+        border-radius: 100;
+        margin-left: 0px;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+      }
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+<h3>MAINTENANCE</h3>
+<img class="img360" src="https://i.postimg.cc/NFBwySGt/gear.png">
+    <h1>Website Under Maintenance.</h1>
+    <h2>Sorry for the inconvenience.</h2>
+<h2>Website is currently undergoing maintenance. We will be back shortly...</h2>
+<h3>MAINTENANCE</h3>
+  </body>
+</html>
